@@ -1,0 +1,215 @@
+section{
+    padding: 20px 0px;
+}
+@media(min-width:690px){
+    section{
+        padding: 30px 0px;
+    }
+}
+@media(min-width:690px){
+    section{
+        padding: 40px 0px;
+    }
+}
+/* navbar */
+@media(min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+      display: flex!important;
+      flex-basis: auto;
+      justify-content: end;
+    }
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+  }
+  .nav-item a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Manrope", serif;
+  }
+  @media(min-width:690px){
+    .nav-item a{
+      font-size: 16px;
+      }
+  }
+  @media(min-width:1020px){
+    .nav-item a{
+      font-size: 18px;
+    }
+  }
+  .nav-item a:hover{
+    text-decoration: underline !important; 
+    text-decoration-color: #fff !important; 
+    text-decoration-thickness: 2px !important;
+    text-underline-offset: 10px;
+  }
+  .navbar-nav li{
+    padding: 0px 5px 0px 5px;
+  }
+  .navbar-nav li:hover a{
+    color: #fff;
+  }
+  .navbar-toggler {
+    border: none !important;
+  }
+  .navbar-brand img{
+    width: 50%;
+  }
+  @media(min-width:690px){
+    .navbar-brand img{
+      width: 75%;
+    }
+  }
+  @media(min-width:1020px){
+    .navbar-brand img{
+      width: 90%;
+    }
+  }
+  nav{
+    border-bottom: 1px solid #fff;
+  }
+  .sticky-menu {
+    left: 0;
+    margin: auto;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, .07);
+    z-index: 10 !important;
+    background: #fff;
+    -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    transition: .5s;
+  }
+
+  #header-sticky{
+    background-color: #153C3B;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+img{
+    width: 100%;
+}
+.hero-bg{
+    background-color: #153C3B;
+}
+.hero-intro ul {
+    border: 1px solid #fff;
+    width: fit-content;
+    padding: 8px 15px 8px 30px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 27px #ffffff63;
+}
+.hero-intro ul li{
+    color: #fff;
+    font-weight: 400;
+    font-family: "Archivo", serif;
+    font-size: 12px;
+}
+@media(min-width:690px){
+    .hero-intro ul li{
+        font-size: 14px;
+    }
+}
+@media(min-width:1020px){
+    .hero-intro ul li{
+        font-size: 16px;
+    }
+}
+.hero-banner-content h1{
+    color: #fff;
+    font-weight: 500;
+    font-family: "Archivo", serif;
+    font-size: 32px;
+}
+@media(min-width:690px){
+    .hero-banner-content h1{
+        font-size: 32px;
+    }
+}
+@media(min-width:1020px){
+    .hero-banner-content h1{
+        font-size: 52px;
+    }
+}
+.hero-banner-content p{
+    color: #fff;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    font-size: 16px;
+}
+@media(min-width:690px){
+    .hero-banner-content p{
+        font-size: 18px;
+    }
+}
+@media(min-width:1020px){
+    .hero-banner-content p{
+        font-size: 21px;
+    }
+}
+.hero-banner-button{
+    margin: 0px 0px 25px 0px;
+}
+.hero-banner-button a {
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Archivo", serif;
+}
+@media(min-width:690px){
+    .hero-banner-button a {
+        font-size: 14px;
+    }
+}
+@media(min-width:1020px){
+    .hero-banner-button a {
+        font-size: 16px;
+    }
+}
+.hero-banner-button a:hover {
+    background-color: #9f9cdd;
+    color: #fff;
+}
+
+
+
+
+
+.partner-head h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Archivo", serif;
+}
+@media(min-width:690px){
+    .partner-head h3{
+        font-size: 23px;
+    }
+}
+@media(min-width:1020px){
+    .partner-head h3{
+        font-size: 35px;
+    }
+}
+.partners-logo{
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}
+.partners-logo img{
+    width: auto;
+}
+@media(max-width:700px){
+    .partners-logo img{
+        width: 100%;
+    } 
+}
