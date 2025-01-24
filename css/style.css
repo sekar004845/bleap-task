@@ -68,7 +68,7 @@ body{
   }
   @media(min-width:1020px){
     .navbar-brand img{
-      width: 90%;
+      width: 60%;
     }
   }
   nav{
@@ -697,4 +697,141 @@ img{
     .kickstart-content-button a:hover {
         background-color: #0C0E13;
         color: #fff;
+    }
+
+
+
+
+
+    
+    .footer-logo img{
+        width: fit-content;
+    }
+    footer{
+        padding: 20px 0px;
+        background-color: #153C3C;
+    }
+    @media(min-width:690px){
+        footer{
+            padding: 30px 0px;
+        }
+    }
+    @media(min-width:690px){
+        footer{
+            padding: 40px 0px;
+        }
+    }
+    .footer-head h3{
+        color: #fff;
+        font-weight: 600;
+        font-family: "Archivo", serif;
+        font-size: 18px;
+    }
+    @media(min-width:690px){
+        .footer-head h3{
+            font-size: 20px;
+        }
+    }
+    @media(min-width:1020px){
+        .footer-head h3{
+            font-size: 23px;
+        }
+    }
+    .footer-icon-content a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+    }
+    @media(min-width:690px){
+        .footer-icon-content a{
+            font-size: 16px;
+        } 
+    }
+    @media(min-width:1020px){
+        .footer-icon-content a{
+            font-size: 18px;
+        } 
+    }
+    .footer-icon{
+        padding: 0px 10px 0px 0px;
+    }
+    .footer-icon i{
+        color: #16A7A7;
+        border: 1px solid #16A7A7;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icon a{
+        text-decoration: none;
+    }
+.limited-seats-bg{
+    background-color: #8BCBCB;
+    padding: 20px;
+    border-radius: 75px;
+}
+@media(max-width:1000px){
+    .limited-seats-bg{
+        border-radius: 5px;
+    } 
+}
+    .limited-seats-contents h3{
+        font-weight: 500;
+        font-family: "Archivo", serif;
+        color: #000;
+        font-size: 16px;
+    }
+    @media(min-width:690px){
+        .limited-seats-contents h3{
+            font-size: 20px;
+        }  
+    }
+    @media(min-width:1020px){
+        .limited-seats-contents h3{
+            font-size: 23px;
+        }  
+    }
+    .limitied-seats-numbers{
+        padding: 0px 10px 0px 0px;
+    }
+    .limitied-seats-numbers h5 {
+        font-weight: 500;
+        font-family: "Archivo", serif;
+        color: #000;
+        font-size: 16px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid #153C3B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @media(min-width:690px){
+        .limitied-seats-numbers h5{
+            font-size: 20px;
+        }  
+    }
+    @media(min-width:1020px){
+        .limitied-seats-numbers h5{
+            font-size: 23px;
+        }  
+    }
+    .limitied-seats-numbers p {
+        font-weight: 500;
+        font-family: "Archivo", serif;
+        color: #000;
+        font-size: 16px;
+    }
+    @media(min-width:690px){
+        .limitied-seats-numbers p{
+            font-size: 20px;
+        }  
+    }
+    @media(min-width:1020px){
+        .limitied-seats-numbers p{
+            font-size: 23px;
+        }  
     }
