@@ -201,6 +201,23 @@ img{
         font-size: 35px;
     }
 }
+
+.partner-head p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", serif; 
+}
+@media(min-width:690px){
+    .partner-head p{
+        font-size: 18px;
+    }
+}
+@media(min-width:1020px){
+    .partner-head p{
+        font-size: 21px;
+    }
+}
 .partners-logo{
     text-align: center;
     padding: 15px 0px 0px 0px;
@@ -213,3 +230,105 @@ img{
         width: 100%;
     } 
 }
+.why-choose-us-bg{
+    background-color: #153c3b;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0px 5px 0px;
+}
+.why-choose-us-content{
+    background: url(../images/why-choose-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.why-choose-us-content-icon img{
+    width: 50px;
+}
+.why-choose-us-content-para{
+    padding: 100px 0px 0px 0px;
+}
+.why-choose-us-content-para h4{
+   color: #fff;
+   font-weight: 600;
+   font-family: "Archivo", serif;
+   font-size: 18px;
+}
+@media(min-width:690px){
+    .why-choose-us-content-para h4{
+       font-size: 20px;
+   }
+}
+@media(min-width:1020px){
+    .why-choose-us-content-para h4{
+       font-size: 23px;
+   }
+}
+.why-choose-us-content-para p{
+   color: #fff;
+   font-weight: 400;
+   font-family: "Roboto", serif;
+   font-size: 16px;
+   padding: 10px 0px 0px 0px;
+}
+@media(min-width:690px){
+    .why-choose-us-content-para p{
+       font-size: 16px;
+   }
+}
+@media(min-width:1020px){
+    .why-choose-us-content-para p{
+       font-size: 18px;
+   }
+}
+.why-choose-us-button{
+    margin: 15px 0px 25px 0px;
+    text-align: center;
+}
+.why-choose-us-button a {
+    color: #fff;
+    background-color: #153C3B;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 9px;
+    font-weight: 600;
+    font-family: "Archivo", serif;
+    border: 1px solid #153C3B;
+}
+@media(min-width:690px){
+    .hwhy-choose-us-button a {
+        font-size: 14px;
+    }
+}
+@media(min-width:1020px){
+    .why-choose-us-button a {
+        font-size: 16px;
+    }
+}
+.why-choose-us-button a:hover {
+    background-color: #ffffff;
+    color: #153C3B;
+}
+.programs-content {
+    border: 1px solid #8F90923D;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0px 5px 0px;
+}
+.programs-content p{
+    color: #0C0E13;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    padding: 15px 0px 0px 0px;
+ }
+ @media(min-width:690px){
+    .programs-content p{
+        font-size: 16px;
+    }
+ }
+ @media(min-width:1020px){
+    .programs-content p{
+        font-size: 18px;
+    }
+ }
