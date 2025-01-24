@@ -332,3 +332,43 @@ img{
         font-size: 18px;
     }
  }
+ .course-content{
+    border: 1px solid #92969838;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+ }
+ .course-content-para{
+    padding: 10px;
+ }
+ .course-content-para h4{
+    color: #131A20;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Inter", serif;
+ }
+ @media(min-width:690px){
+    .course-content-para h4{
+        font-size: 20px;
+    }
+ }
+ @media(min-width:1020px){
+    .course-content-para h4{
+        font-size: 23px;
+    }
+ }
+ .course-content-para p{
+    color: #61666A;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Inter", serif;
+ }
+ @media(min-width:690px){
+    .course-content-para p{
+        font-size: 16px;
+    }
+ }
+ @media(min-width:1020px){
+    .course-content-para p{
+        font-size: 16px;
+    }
+ }
