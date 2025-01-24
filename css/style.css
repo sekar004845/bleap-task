@@ -372,3 +372,7 @@ img{
         font-size: 16px;
     }
  }
+ .course-content-image img{
+    width: 75px;
+    height: 75px;
+ }
